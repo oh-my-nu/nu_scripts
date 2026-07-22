@@ -1,2 +1,5 @@
 # Example of a `.gitattributes` file which reclassifies `.nu` files as Nushell:
 *.nu linguist-language=Nushell
+
+.github                        export-ignore
+nu_scripts/themes/screenshots  export-ignore # 90+ MB
